@@ -1,0 +1,33 @@
+*{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+ display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: black;
+}
+.login_box{
+    position: relative;
+    background-color:red;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ h2{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+ }
+.input_box{
+    width: 310px;
+    margin: 20px;
+    border-bottom: 2px solid;color: white;
+}

@@ -1,0 +1,176 @@
+html{
+   scroll-behavior: smooth;
+}
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+body{
+   font-family:  "Montserrat", sans-serif;
+}
+  
+img{
+   width: 100%;
+}
+
+section{
+   padding: 100px 0px;
+   background-color: #1abc9c;
+}
+
+.section_title{
+   margin-bottom: 30px;
+}
+
+.section_title h2{
+   position: relative;
+   text-align: center;
+   color: #fff;
+   font-size: 30px;
+   transition: all .5s ease-in-out;
+
+}
+
+.section_title h2:hover{
+   background-color:#2c3e50;
+}
+
+/*-------HEADER--------*/
+
+header{
+   background-color: #2c3e50;
+   position: fixed;
+   width: 100%;
+   border-bottom: 1px solid color rgba(238,238,238,0.801);
+   z-index: 5px;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px auto;
+   width: 80%;
+   padding: 10px 0;
+
+}
+.nav_links{
+   display: flex;
+}
+
+.nav_links li a{
+    color: #fff;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav_links li a:hover{
+   background-color: #1abc9c;
+}
+.logo h2 a{
+  text-transform: uppercase;
+   color: #fff;
+}
+
+.body{
+   
+   background-color: #1abc9c;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+
+/*-------Home page--------*/
+
+.inner_homepage{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+   width: 80%;
+   color: #fff;
+}
+
+
+.child_homepage{
+   flex-basis: 45%;
+}
+
+.child_homepage h1{
+    font-size: 50px;
+    color:white
+}
+
+.child_homepage p{
+   font-size: 25px;
+   margin-bottom: 12px;
+}
+
+.btn{
+   background-color: #2c3e50;
+   padding: 12px 28px;
+   border-radius: 20px;
+   color: #fff;
+   border: 1px solid cadetblue ;
+   font-weight: 700;
+   cursor: pointer;
+   transition: all .3s ease;
+}
+ .btn:hover{
+  background-color: burlywood;
+ }
+
+ /* --------Portfolio ------*/
+
+
+.container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: white;
+
+}
+
+.container h2{
+   font-size: 55px;
+   font-weight: 700;
+   color: #2c3e50;
+}
+
+/* ------ABOUT------ */
+
+
+.innersoftware{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   justify-content: space-between;
+   margin: 0 auto;
+   color: #fff;
+}
+.innersoftware_child{
+   flex-basis: 30%;
+   color: #fff;
+   padding: 25px 20px;
+   background-color: #2c3e50;
+   border-radius: 10px;
+   border: 1px solid transparent;
+  
+}
+.innersoftware_child:hover{
+   border: 2px solid #fff;
+}
+.innersoftware_child h3{
+   font-size: 25px;
+   margin: 5px 0;
+}
+.innersoftware_child p{
+   font-size: 15px;
+}
